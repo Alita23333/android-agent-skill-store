@@ -1,0 +1,6 @@
+runtime: android-shell
+tools:
+  - shell.root
+  - skills.read_resource
+permissions:
+  - root

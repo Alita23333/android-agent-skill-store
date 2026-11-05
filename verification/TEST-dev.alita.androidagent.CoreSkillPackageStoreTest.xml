@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.alita.androidagent.CoreSkillPackageStoreTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-05T00:24:14" hostname="ROGSTRIXG634" time="3.7">
+  <properties/>
+  <testcase name="publishedSelectionRequiresEnableAndUpdatesKeepOldVersions" classname="dev.alita.androidagent.CoreSkillPackageStoreTest" time="2.689"/>
+  <testcase name="unknownMetadataAndBlockDescriptionRetainedWithoutExecution" classname="dev.alita.androidagent.CoreSkillPackageStoreTest" time="0.076"/>
+  <testcase name="identicalImportPreservesOriginAndVersionTamperFails" classname="dev.alita.androidagent.CoreSkillPackageStoreTest" time="0.112"/>
+  <testcase name="malformedSupplementRemainsStoredButUnavailable" classname="dev.alita.androidagent.CoreSkillPackageStoreTest" time="0.218"/>
+  <testcase name="versionsPinsProvenanceAndRetirementSurviveReload" classname="dev.alita.androidagent.CoreSkillPackageStoreTest" time="0.159"/>
+  <testcase name="dependencyRequestNeverGrantsRootAndDoesNotInstallAnything" classname="dev.alita.androidagent.CoreSkillPackageStoreTest" time="0.099"/>
+  <testcase name="resourceContainmentAndSizeEnforced" classname="dev.alita.androidagent.CoreSkillPackageStoreTest" time="0.075"/>
+  <testcase name="traversalAbsoluteBackslashCaseCollisionAndOutsideSiblingsRejected" classname="dev.alita.androidagent.CoreSkillPackageStoreTest" time="0.062"/>
+  <testcase name="unavailablePackagesCannotBeEnabledOrPublishedAsAvailable" classname="dev.alita.androidagent.CoreSkillPackageStoreTest" time="0.081"/>
+  <testcase name="limitsMissingMetadataInvalidUtf8AndMultipleSkillsRejected" classname="dev.alita.androidagent.CoreSkillPackageStoreTest" time="0.129"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

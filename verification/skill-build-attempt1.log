@@ -1,0 +1,42 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+> Task :store:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :store:preBuild UP-TO-DATE
+> Task :store:preDebugBuild UP-TO-DATE
+> Task :store:generateDebugResValues
+> Task :store:generateDebugResources
+> Task :store:packageDebugResources
+> Task :store:preDebugUnitTestBuild UP-TO-DATE
+> Task :store:javaPreCompileDebug
+> Task :store:writeDebugAarMetadata
+> Task :store:parseDebugLocalResources
+> Task :store:compileDebugLibraryResources
+> Task :store:generateDebugRFile
+> Task :store:checkDebugUnitTestAarMetadata FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':store:checkDebugUnitTestAarMetadata'.
+> Configuration `:store:debugUnitTestRuntimeClasspath` contains AndroidX dependencies, but the `android.useAndroidX` property is not enabled, which may cause runtime issues.
+  Set `android.useAndroidX=true` in the `gradle.properties` file and retry.
+  The following AndroidX dependencies are detected:
+  :store:debugUnitTestRuntimeClasspath -> org.robolectric:robolectric:4.14.1 -> androidx.test.espresso:espresso-idling-resource:3.6.1
+  :store:debugUnitTestRuntimeClasspath -> org.robolectric:robolectric:4.14.1 -> androidx.test:monitor:1.7.2
+  :store:debugUnitTestRuntimeClasspath -> androidx.test:core-ktx:1.6.1 -> androidx.test:core:1.6.1 -> androidx.annotation:annotation:1.7.0-beta01
+  :store:debugUnitTestRuntimeClasspath -> androidx.test:core-ktx:1.6.1 -> androidx.test:core:1.6.1 -> androidx.annotation:annotation:1.7.0-beta01 -> androidx.annotation:annotation-jvm:1.7.0-beta01
+  :store:debugUnitTestRuntimeClasspath -> androidx.test:core-ktx:1.6.1 -> androidx.test:core:1.6.1 -> androidx.tracing:tracing:1.1.0
+  :store:debugUnitTestRuntimeClasspath -> androidx.test:core-ktx:1.6.1
+  :store:debugUnitTestRuntimeClasspath -> androidx.test:core-ktx:1.6.1 -> androidx.lifecycle:lifecycle-common:2.3.1
+  :store:debugUnitTestRuntimeClasspath -> androidx.test:core-ktx:1.6.1 -> androidx.test:core:1.6.1
+  :store:debugUnitTestRuntimeClasspath -> androidx.test:core-ktx:1.6.1 -> androidx.test:core:1.6.1 -> androidx.concurrent:concurrent-futures-ktx:1.1.0
+  :store:debugUnitTestRuntimeClasspath -> androidx.test:core-ktx:1.6.1 -> androidx.test:core:1.6.1 -> androidx.concurrent:concurrent-futures-ktx:1.1.0 -> androidx.concurrent:concurrent-futures:1.1.0
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 20s
+9 actionable tasks: 9 executed

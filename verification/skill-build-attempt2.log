@@ -1,0 +1,87 @@
+> Task :store:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :store:preBuild UP-TO-DATE
+> Task :store:preDebugBuild UP-TO-DATE
+> Task :store:generateDebugResValues UP-TO-DATE
+> Task :store:generateDebugResources UP-TO-DATE
+> Task :store:packageDebugResources UP-TO-DATE
+> Task :store:parseDebugLocalResources UP-TO-DATE
+> Task :store:generateDebugRFile UP-TO-DATE
+> Task :store:javaPreCompileDebug UP-TO-DATE
+> Task :store:preDebugUnitTestBuild UP-TO-DATE
+> Task :store:writeDebugAarMetadata UP-TO-DATE
+> Task :store:compileDebugLibraryResources UP-TO-DATE
+> Task :store:checkDebugUnitTestAarMetadata
+> Task :store:generateDebugUnitTestResValues
+> Task :store:mapDebugUnitTestSourceSetPaths
+> Task :store:generateDebugUnitTestResources
+> Task :store:extractDeepLinksDebug
+> Task :store:javaPreCompileDebugUnitTest
+> Task :store:processDebugManifest
+> Task :store:mergeDebugShaders
+> Task :store:processDebugUnitTestManifest
+> Task :store:compileDebugShaders NO-SOURCE
+> Task :store:generateDebugAssets UP-TO-DATE
+> Task :store:mergeDebugAssets
+> Task :store:generateDebugUnitTestAssets UP-TO-DATE
+> Task :store:packageDebugAssets
+> Task :store:mergeDebugUnitTestAssets
+> Task :store:mergeDebugUnitTestResources
+> Task :store:mergeDebugJniLibFolders
+> Task :store:mergeDebugNativeLibs NO-SOURCE
+> Task :store:stripDebugDebugSymbols NO-SOURCE
+> Task :store:copyDebugJniLibsProjectAndLocalJars
+> Task :store:extractDeepLinksForAarDebug
+> Task :store:prepareDebugArtProfile
+> Task :store:prepareLintJarForPublish
+> Task :store:processDebugUnitTestResources
+> Task :store:packageDebugUnitTestForUnitTest
+> Task :store:generateDebugUnitTestConfig
+> Task :store:compileDebugKotlin
+> Task :store:compileDebugJavaWithJavac NO-SOURCE
+> Task :store:bundleLibRuntimeToJarDebug
+> Task :store:bundleLibCompileToJarDebug
+> Task :store:processDebugJavaRes
+> Task :store:extractDebugAnnotations
+> Task :store:mergeDebugGeneratedProguardFiles
+> Task :store:mergeDebugConsumerProguardFiles
+> Task :store:mergeDebugJavaResource
+> Task :store:syncDebugLibJars
+> Task :store:bundleDebugAar
+> Task :store:assembleDebug
+
+> Task :store:compileDebugUnitTestKotlin FAILED
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:22:40 Unresolved reference 'SkillDependencyInventory'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:22:67 Unresolved reference 'SkillDependencyInventory'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:22:69 Unresolved reference 'SkillDependencyInventory'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:23:9 Unresolved reference 'CoreSkillPackageStore'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:31:32 Unresolved reference 'CoreSkillPackageStore'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:32:15 Unresolved reference 'install'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:38:21 Unresolved reference 'CoreSkillPackageStore'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:44:46 Unresolved reference 'enabled'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:55:40 Unresolved reference 'CoreSkillPackageStore'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:61:21 Unresolved reference 'CoreSkillPackageStore'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:72:21 Unresolved reference 'CoreSkillPackageStore'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:77:24 Unresolved reference 'CoreSkillPackageStore'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:83:48 Unresolved reference 'SkillAvailability'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:93:25 Unresolved reference 'SkillDependencyInventory'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:97:142 Unresolved reference 'missingDependencies'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:99:21 Unresolved reference 'SkillDependencyInventory'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:100:76 Unresolved reference 'missingDependencies'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:101:47 Unresolved reference 'enabled'.
+e: file:///${USER_HOME}/Documents/A!g!E!n!T!/ANDROID%20AGENT%20ARCHIVE%202026-11-05/repositories/android-agent-skill-store/store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt:107:26 Unresolved reference 'SkillAvailability'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':store:compileDebugUnitTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 5s
+40 actionable tasks: 32 executed, 8 up-to-date

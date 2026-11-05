@@ -1,0 +1,24 @@
+✔ update/new session and restarted resume retain distinct immutable versions (114.7672ms)
+✔ configuration bytes restored exactly on success and Core rejection (77.9375ms)
+✔ legacy explicit roots survive empty managed selection (30.5343ms)
+✔ managed roots reject conflicting project overrides before any Core invocation (35.8702ms)
+✔ retirement disables future selection but preserves old session resume (94.8594ms)
+✔ selected missing dependencies prevent Core calls (27.8406ms)
+✔ post-import content changes prevent create and send (51.7729ms)
+✔ stale inventory fails before Core invocation (22.6722ms)
+✔ catalog collision never writes a successful session binding (34.1444ms)
+✔ binding persistence failure poisons subsequent requests (35.7149ms)
+✔ cancel bypasses lifecycle queue while concurrent creates serialize (63.0222ms)
+✔ uncertain Core timeout restores configuration and requires restart (56.0818ms)
+✔ startup recovery restores interrupted overlay using durable original bytes (23.6076ms)
+✔ corrupt recovery hash stops startup without replacing configuration (18.461ms)
+✔ session sending and resume require durable host index (6.9747ms)
+✔ managed child execution remains unavailable until binding contract exists (23.9441ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 786.0301

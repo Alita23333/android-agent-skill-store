@@ -1,0 +1,65 @@
+[
+  {
+    "originalPath": "app/src/main/java/dev/alita/androidagent/skills/CoreSkillPackageStore.kt",
+    "publishedPath": "store/src/main/kotlin/dev/alita/androidagent/skills/CoreSkillPackageStore.kt",
+    "originalSha256": "dc2709d29a6f3d380fe9903e684f3ef3afed2adeea5d3098257fb7dd297180fc",
+    "publishedSha256": "dc2709d29a6f3d380fe9903e684f3ef3afed2adeea5d3098257fb7dd297180fc",
+    "change": "byte-identical"
+  },
+  {
+    "originalPath": "app/src/test/java/dev/alita/androidagent/CoreSkillPackageStoreTest.kt",
+    "publishedPath": "store/src/test/kotlin/dev/alita/androidagent/CoreSkillPackageStoreTest.kt",
+    "originalSha256": "3b2090ec72c6fe3f03bd7773b9bc5202f2c390cbbbf37ae084678cf711180f0f",
+    "publishedSha256": "3b2090ec72c6fe3f03bd7773b9bc5202f2c390cbbbf37ae084678cf711180f0f",
+    "change": "byte-identical"
+  },
+  {
+    "originalPath": "app/src/main/java/dev/alita/androidagent/skills/Skills.kt",
+    "publishedPath": "store/src/main/kotlin/dev/alita/androidagent/skills/SkillPackageTypes.kt",
+    "originalSha256": "452ea13642c2182c67802080e6ace1e48d7a6284d6b463d40cf867ec2496a4f9",
+    "publishedSha256": "b5dc780e9a879234f356a0e118e64c3603d8f245890308f910911608a22bcf2e",
+    "change": "Extracted enum and data classes only; no storage behavior change; auxiliary file, not restored over Skills.kt; final privacy normalization"
+  },
+  {
+    "originalPath": "examples/skills/organize-downloads/android.yaml",
+    "publishedPath": "examples/skills/organize-downloads/android.yaml",
+    "originalSha256": "e4160f936e109ea4d815a2d7b3731a7d5db15c50f2ee36d2b5846686aa730f08",
+    "publishedSha256": "e4160f936e109ea4d815a2d7b3731a7d5db15c50f2ee36d2b5846686aa730f08",
+    "change": "byte-identical"
+  },
+  {
+    "originalPath": "examples/skills/organize-downloads/SKILL.md",
+    "publishedPath": "examples/skills/organize-downloads/SKILL.md",
+    "originalSha256": "ad098cf5274cdd1eb35aae1fa5097d4af108a62d3491cbfd0e63abd0c0916b80",
+    "publishedSha256": "ad098cf5274cdd1eb35aae1fa5097d4af108a62d3491cbfd0e63abd0c0916b80",
+    "change": "byte-identical"
+  },
+  {
+    "originalPath": "examples/skills/organize-downloads/references/rules.md",
+    "publishedPath": "examples/skills/organize-downloads/references/rules.md",
+    "originalSha256": "612f327df86f95c742052be77fa19f101fd0ef784b2aff299daff38b17cbd9bc",
+    "publishedSha256": "612f327df86f95c742052be77fa19f101fd0ef784b2aff299daff38b17cbd9bc",
+    "change": "byte-identical"
+  },
+  {
+    "originalPath": "examples/skills/organize-downloads/scripts/preview.sh",
+    "publishedPath": "examples/skills/organize-downloads/scripts/preview.sh",
+    "originalSha256": "0fa42206e2c212f0ca017b089b7df09a1a6eb7204ced38d753ac536d9eba6659",
+    "publishedSha256": "0fa42206e2c212f0ca017b089b7df09a1a6eb7204ced38d753ac536d9eba6659",
+    "change": "byte-identical"
+  },
+  {
+    "originalPath": "tools/phase9/skill-session-bindings-test.cjs",
+    "publishedPath": "reference/skill-session-bindings-test.cjs",
+    "originalSha256": "cb9f582d145090270ad32419cc23b89fc16fcaaae78135644ae05a1de7a0a080",
+    "publishedSha256": "cb9f582d145090270ad32419cc23b89fc16fcaaae78135644ae05a1de7a0a080",
+    "change": "byte-identical"
+  },
+  {
+    "originalPath": "app/src/main/assets/zcode-runtime/skill-session-bindings.cjs",
+    "publishedPath": "reference/skill-session-bindings.cjs",
+    "originalSha256": "11fcb764319a46b109b5e0a0d8a1e7edeb661190e84c542db2642952987a8307",
+    "publishedSha256": "11fcb764319a46b109b5e0a0d8a1e7edeb661190e84c542db2642952987a8307",
+    "change": "byte-identical"
+  }
+]
